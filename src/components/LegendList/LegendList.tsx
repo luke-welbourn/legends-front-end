@@ -1,7 +1,7 @@
 import "./LegendList.scss";
 import { Link } from "react-router-dom";
 import { LegendType } from "../../Data/Types/Types";
-import Legend from "../../Pages/Legend/Legend";
+import Legend from "../Legend/Legend";
 
 type LegendListProps = {
   legends: LegendType[];

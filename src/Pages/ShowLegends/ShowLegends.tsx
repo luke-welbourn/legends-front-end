@@ -1,8 +1,8 @@
 import "./ShowLegends.scss";
 import { LegendType } from "../../Data/Types/Types";
 import { FormEvent, useState, useEffect } from "react";
-import LegendList from "../LegendList/LegendList";
-import SearchBox from "../SearchBox/SearchBox";
+import LegendList from "../../components/LegendList/LegendList";
+import SearchBox from "../../components/SearchBox/SearchBox";
 import Spinner from "../../Utils/Spinner";
 
 const ShowLegends = () => {

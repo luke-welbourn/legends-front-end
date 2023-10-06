@@ -2,7 +2,7 @@ import "./App.scss";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav/Nav";
 import Home from "./Pages/Home/Home";
-import ShowLegends from "./components/ShowLegends/ShowLegends";
+import ShowLegends from "./Pages/ShowLegends/ShowLegends";
 import Create from "./Pages/Create/Create";
 import LegendParam from "./Pages/LegendParam/LegendParam";
 import { useState, useEffect } from "react";

@@ -1,7 +1,7 @@
 import "./LegendParam.scss";
 import { useParams } from "react-router-dom";
 import { LegendType } from "../../Data/Types/Types";
-import Legend from "../Legend/Legend";
+import Legend from "../../components/Legend/Legend";
 import { getLegendRequest } from "../../Utils/Requests";
 import { useNavigate } from "react-router-dom";
 import Form from "../../components/Form/Form";
