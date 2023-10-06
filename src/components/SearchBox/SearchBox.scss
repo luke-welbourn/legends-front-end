@@ -1,0 +1,33 @@
+.search-box {
+  position: relative;
+  width: 300px;
+  margin: 20px auto;
+  margin-bottom: 60px;
+}
+
+.search-box__label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #666;
+}
+
+.search-box__input {
+  width: 100%;
+  padding: 10px;
+  padding-left: 30px;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  font-size: 16px;
+  color: #333;
+}
+
+.search-box__icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #666;
+  font-size: 20px;
+}
