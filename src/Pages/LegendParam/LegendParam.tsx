@@ -4,7 +4,7 @@ import { LegendType } from "../../Data/Types/Types";
 import Legend from "../Legend/Legend";
 import { getLegendRequest } from "../../Utils/Requests";
 import { useNavigate } from "react-router-dom";
-import Form from "../Form/Form";
+import Form from "../../components/Form/Form";
 import { useState, useEffect } from "react";
 
 type LegendParamProps = {

@@ -1,6 +1,6 @@
 import { LegendType } from "../../Data/Types/Types";
 import { getLegendRequest } from "../../Utils/Requests";
-import CreateForm from "../CreateForm/CreateForm";
+import CreateForm from "../../components/CreateForm/CreateForm";
 import { useNavigate } from "react-router-dom";
 
 const Create = () => {

@@ -1,10 +1,10 @@
 import "./App.scss";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav/Nav";
-import Home from "./components/Home/Home";
+import Home from "./Pages/Home/Home";
 import ShowLegends from "./components/ShowLegends/ShowLegends";
-import Create from "./components/Create/Create";
-import LegendParam from "./components/LegendParam/LegendParam";
+import Create from "./Pages/Create/Create";
+import LegendParam from "./Pages/LegendParam/LegendParam";
 import { useState, useEffect } from "react";
 import { LegendType } from "./Data/Types/Types";
 
